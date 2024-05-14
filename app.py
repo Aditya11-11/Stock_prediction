@@ -5,7 +5,7 @@ app = Flask(__name__, static_folder='static')
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html'display = 'True')
 
 @app.route('/process_form', methods=['POST'])
 def process_form():
