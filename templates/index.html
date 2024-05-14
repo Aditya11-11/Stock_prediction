@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting Image Source with JavaScript</title>
+</head>
+    <script src="/static/JS/script.js"></script>
+    <link rel="stylesheet" href="/static/CSS/style.css">
+<body>
+    <li id="identifier" style="display: none;">{{display}}</li>
+    <div id="head"> 
+        <!-- <h1>stock prediction </h1> -->
+        stock prediction
+    </div >
+    <form action="/process_form" method="post">
+    
+        <input type="text" name="stock" id="stock" placeholder="stock symbol">
+        <input type="text" name="start" id="start" placeholder="start date YYYY-MM-DD">
+        <input type="text" name="end" id="end" placeholder="end date YYYY-MM-DD">
+        <button class="button-four"  type="submit">SUBMIT</button>
+    </form>
+    <br>
+    <!-- <button onclick="sumit()" >LOAD GRAPH</button> -->
+    <br>
+    <h2>Close graph</h2>
+    <img id="myImage1" src="" alt="Placeholder Image">
+    <h2>MA100 graph</h2>
+    <img id="myImage2" src="" alt="Placeholder Image">
+    <h2>MA200 graph</h2>
+    <img id="myImage3" src="" alt="Placeholder Image">
+    <h2>Prediction graph</h2>
+    <img id="myImage4" src="" alt="Placeholder Image">
+    <h2>Prediction vs Orignal graph</h2>
+    <img id="myImage5" src="" alt="Placeholder Image">
+
+</body>
+</html>
